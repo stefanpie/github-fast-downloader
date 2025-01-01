@@ -2,12 +2,6 @@
 
 `github-fast-downloader` is a python library for quickly retriving files and directories from GitHub reposities by utilizing git's sparse checkout feature.
 
-This libaray was origanizall deisgn for a project which reqwuired donwnaling large nyumber of rpsiecec fiels and directies form a range of different repos. This was orioally done using the API but on nthe sacel at which I wanted to test and run the system, I hit the limit on the API and quarring the API and then downloading the files individually was too slow.
-
-The solution I prefered was to be able to clone a repo locally in a temperary directory and pluck out the files and directories I needed since git clonig was well optmized and I could quicly traverse and copy out files and directoriews as needed. However, "by defualt" git will clone the entire repo and I only needed a small subset of the files and directories making it very slow for large repors I was pulling from.
-
-However, if a user knows ahread of 
-
 ## Installation
 
 ```bash
