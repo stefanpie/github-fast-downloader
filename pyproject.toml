@@ -1,0 +1,18 @@
+[project]
+name = "github-fast-downloader"
+version = "0.1.0"
+description = "A library for quickly retriving files and directories from GitHub reposities by utilizing git's sparse checkout feature."
+readme = "README.md"
+authors = [{ name = "Stefan Abi-Karam", email = "stefanabikaram@gatech.edu" }]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.urls]
+homepage = ""
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = ["mypy>=1.14.1", "pytest>=8.3.4", "ruff>=0.8.4"]
